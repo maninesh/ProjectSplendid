@@ -1,0 +1,15 @@
+h1, h2, p1 {
+    color:white;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+p1 {
+    padding-top: 10px;
+}

@@ -1,0 +1,54 @@
+.occupation_card {
+  border-radius: 4px;
+  background-color: #1c3f4f;
+  overflow: hidden;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    color: white;
+  margin: 20px;
+  
+}
+.occupation_card h2{
+  
+    color:orange;
+    
+  
+}
+.occupation_card .content {
+  padding: 16px;
+  line-height: 0.5;
+}
+
+.occupation_card .content h2{
+  display: inline-block;
+}
+
+.occupation_card .content span{
+  margin-left: 2%;
+}
+
+.occupation_card img {
+  display: block;
+  max-width: 100%;
+}
+
+.occupation_card .occ_title {
+  margin-top: 0;
+  margin-bottom: 28px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.occupation_card .descr {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.occupation_card:hover {
+  transform: scale(1.02, 1.02);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+.Occupationgrid_occupation_grid__2Wa9s  p{
+  color:orangered;
+}

@@ -1,0 +1,9 @@
+.occupation_grid {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  justify-content: center;
+  grid-gap: 0px;
+}

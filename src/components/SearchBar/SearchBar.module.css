@@ -1,0 +1,18 @@
+.input {
+  color: #171718;
+  font-size: 20px;
+  min-height: 55px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid rgb(179, 179, 179);
+  width: 75%;
+  margin: 1% 0 3% 12.5%;
+  outline: 0;
+}
+
+.input:focus {
+  border-width: 1px;
+  border: 2px solid;
+  border-color: orangered;
+  /* transition: border-color 200ms ease-in-out; */
+}
